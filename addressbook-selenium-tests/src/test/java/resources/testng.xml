@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Contacts" >
+        <classes>
+            <class name="com.telRan.ashkelon.ContactCreationTests" />
+            <class name="com.telRan.ashkelon.ContactDeletionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Groups">
+        <classes>
+            <class name="com.telRan.ashkelon.GroupCreationTests"/>
+            <class name="com.telRan.ashkelon.GroupModificationTests"/>
+            <class name="com.telRan.ashkelon.GroupDeletionTests"/>
+        </classes>
+    </test>
+</suite>

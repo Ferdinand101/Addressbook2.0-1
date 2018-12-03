@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.repeat.tests.ContactDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-03T12:42:43" hostname="LAPTOP-PPNINR78" time="3.868">
+  <properties/>
+  <testcase name="testContactDeletion" classname="com.telran.repeat.tests.ContactDeletionTests" time="3.868"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1543840963203	Marionette	TRACE	0 -> [0,53,"WebDriver:FindElements",{"using":"css selector","value":"*[name='selected[]']"}]
+1543840966272	Marionette	TRACE	0 <- [1,53,null,[{"element-6066-11e4-a52e-4f735466cecf":"ffb6980b-965c-47d1-b560-84f214edb793"},{"element-6066-11e4-a52e-4f735466c ... ecf":"3027ea1c-4b86-4f51-86c3-00e002427520"},{"element-6066-11e4-a52e-4f735466cecf":"48e44a1a-697d-41ae-a393-2c92a1cb223d"}]]
+1543840966291	Marionette	TRACE	0 -> [0,54,"WebDriver:FindElement",{"using":"xpath","value":"//a[@href='./']"}]
+1543840966406	Marionette	TRACE	0 <- [1,54,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"14feda33-d423-4766-af5d-96730e34db6c"}}]
+1543840966438	Marionette	TRACE	0 -> [0,55,"WebDriver:ElementClick",{"id":"14feda33-d423-4766-af5d-96730e34db6c"}]
+1543840966489	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost/addressbook/
+1543840966537	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost/addressbook/
+1543840966538	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost/addressbook/
+1543840966575	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost/addressbook/
+1543840966593	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost/addressbook/
+1543840966593	Marionette	TRACE	0 <- [1,55,null,{"value":null}]
+1543840966614	Marionette	TRACE	0 -> [0,56,"WebDriver:FindElement",{"using":"css selector","value":"*[name='selected[]']"}]
+1543840966627	Marionette	TRACE	0 <- [1,56,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2c575fea-af1e-4a9a-8f89-3e1f1882d10b"}}]
+1543840966651	Marionette	TRACE	0 -> [0,57,"WebDriver:ElementClick",{"id":"2c575fea-af1e-4a9a-8f89-3e1f1882d10b"}]
+1543840966898	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1543840966901	Marionette	TRACE	0 <- [1,57,null,{"value":null}]
+1543840966917	Marionette	TRACE	0 -> [0,58,"WebDriver:FindElement",{"using":"css selector","value":"[value=Delete]"}]
+1543840966926	Marionette	TRACE	0 <- [1,58,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bbd6ba3b-52c1-4fef-97ed-a345138385a8"}}]
+1543840966947	Marionette	TRACE	0 -> [0,59,"WebDriver:ElementClick",{"id":"bbd6ba3b-52c1-4fef-97ed-a345138385a8"}]
+1543840966980	Marionette	DEBUG	Received observer notification tabmodal-dialog-loaded
+1543840966982	Marionette	TRACE	0 <- [1,59,null,{"value":null}]
+1543840967010	Marionette	TRACE	0 -> [0,60,"WebDriver:GetAlertText",{}]
+1543840967010	Marionette	TRACE	0 <- [1,60,null,{"value":"Delete 1 addresses?"}]
+1543840967026	Marionette	TRACE	0 -> [0,61,"WebDriver:AcceptDialog",{}]
+1543840967052	Marionette	TRACE	0 <- [1,61,null,{"value":null}]
+]]></system-err>
+</testsuite>

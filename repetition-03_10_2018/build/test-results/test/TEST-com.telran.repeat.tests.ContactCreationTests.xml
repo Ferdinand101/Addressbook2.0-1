@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.repeat.tests.ContactCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-03T12:42:41" hostname="LAPTOP-PPNINR78" time="2.085">
+  <properties/>
+  <testcase name="createContactTest" classname="com.telran.repeat.tests.ContactCreationTests" time="2.085"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1543840961136	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElement",{"using":"xpath","value":"//a[@href='edit.php']"}]
+1543840961141	Marionette	TRACE	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"16841ac3-933b-4c79-93f9-925bc8695584"}}]
+1543840961149	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementClick",{"id":"16841ac3-933b-4c79-93f9-925bc8695584"}]
+1543840961157	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost/addressbook/
+1543840961220	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost/addressbook/
+1543840961221	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost/addressbook/
+1543840961255	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost/addressbook/edit.php
+1543840961300	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost/addressbook/edit.php
+1543840961304	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1543840961328	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"*[name='firstname']"}]
+1543840961333	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5633edcf-86ae-4b2e-ac6a-c4def8f05ee1"}}]
+1543840961358	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClick",{"id":"5633edcf-86ae-4b2e-ac6a-c4def8f05ee1"}]
+1543840961613	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1543840961614	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1543840961634	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":"*[name='firstname']"}]
+1543840961643	Marionette	TRACE	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5633edcf-86ae-4b2e-ac6a-c4def8f05ee1"}}]
+1543840961665	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementClear",{"id":"5633edcf-86ae-4b2e-ac6a-c4def8f05ee1"}]
+1543840961671	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1543840961681	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"css selector","value":"*[name='firstname']"}]
+1543840961685	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5633edcf-86ae-4b2e-ac6a-c4def8f05ee1"}}]
+1543840961696	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementSendKeys",{"id":"5633edcf-86ae-4b2e-ac6a-c4def8f05ee1","text":"Moshe","value":["M","o","s","h","e"]}]
+1543840961709	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1543840961726	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"*[name='lastname']"}]
+1543840961731	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ad006fc3-ac54-4a2b-96cf-739e06a229e2"}}]
+1543840961742	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClick",{"id":"ad006fc3-ac54-4a2b-96cf-739e06a229e2"}]
+1543840961956	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1543840961957	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1543840961973	Marionette	TRACE	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":"*[name='lastname']"}]
+1543840961975	Marionette	TRACE	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ad006fc3-ac54-4a2b-96cf-739e06a229e2"}}]
+1543840961988	Marionette	TRACE	0 -> [0,30,"WebDriver:ElementClear",{"id":"ad006fc3-ac54-4a2b-96cf-739e06a229e2"}]
+1543840961990	Marionette	TRACE	0 <- [1,30,null,{"value":null}]
+1543840962004	Marionette	TRACE	0 -> [0,31,"WebDriver:FindElement",{"using":"css selector","value":"*[name='lastname']"}]
+1543840962005	Marionette	TRACE	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ad006fc3-ac54-4a2b-96cf-739e06a229e2"}}]
+1543840962020	Marionette	TRACE	0 -> [0,32,"WebDriver:ElementSendKeys",{"id":"ad006fc3-ac54-4a2b-96cf-739e06a229e2","text":"Coen","value":["C","o","e","n"]}]
+1543840962025	Marionette	TRACE	0 <- [1,32,null,{"value":null}]
+1543840962051	Marionette	TRACE	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":"*[name='address']"}]
+1543840962052	Marionette	TRACE	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"57d900e8-e776-4af2-b8e6-7df915783b4f"}}]
+1543840962067	Marionette	TRACE	0 -> [0,34,"WebDriver:ElementClick",{"id":"57d900e8-e776-4af2-b8e6-7df915783b4f"}]
+1543840962285	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1543840962287	Marionette	TRACE	0 <- [1,34,null,{"value":null}]
+1543840962302	Marionette	TRACE	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":"*[name='address']"}]
+1543840962303	Marionette	TRACE	0 <- [1,35,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"57d900e8-e776-4af2-b8e6-7df915783b4f"}}]
+1543840962317	Marionette	TRACE	0 -> [0,36,"WebDriver:ElementClear",{"id":"57d900e8-e776-4af2-b8e6-7df915783b4f"}]
+1543840962319	Marionette	TRACE	0 <- [1,36,null,{"value":null}]
+1543840962332	Marionette	TRACE	0 -> [0,37,"WebDriver:FindElement",{"using":"css selector","value":"*[name='address']"}]
+1543840962334	Marionette	TRACE	0 <- [1,37,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"57d900e8-e776-4af2-b8e6-7df915783b4f"}}]
+1543840962348	Marionette	TRACE	0 -> [0,38,"WebDriver:ElementSendKeys",{"id":"57d900e8-e776-4af2-b8e6-7df915783b4f","text":"Tel-Aviv","value":["T","e","l","-","A","v","i","v"]}]
+1543840962359	Marionette	TRACE	0 <- [1,38,null,{"value":null}]
+1543840962363	Marionette	TRACE	0 -> [0,39,"WebDriver:FindElement",{"using":"css selector","value":"*[name='email']"}]
+1543840962367	Marionette	TRACE	0 <- [1,39,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c26957bc-fbbc-4d51-ba42-385674afb631"}}]
+1543840962379	Marionette	TRACE	0 -> [0,40,"WebDriver:ElementClick",{"id":"c26957bc-fbbc-4d51-ba42-385674afb631"}]
+1543840962597	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1543840962598	Marionette	TRACE	0 <- [1,40,null,{"value":null}]
+1543840962616	Marionette	TRACE	0 -> [0,41,"WebDriver:FindElement",{"using":"css selector","value":"*[name='email']"}]
+1543840962620	Marionette	TRACE	0 <- [1,41,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c26957bc-fbbc-4d51-ba42-385674afb631"}}]
+1543840962637	Marionette	TRACE	0 -> [0,42,"WebDriver:ElementClear",{"id":"c26957bc-fbbc-4d51-ba42-385674afb631"}]
+1543840962642	Marionette	TRACE	0 <- [1,42,null,{"value":null}]
+1543840962652	Marionette	TRACE	0 -> [0,43,"WebDriver:FindElement",{"using":"css selector","value":"*[name='email']"}]
+1543840962656	Marionette	TRACE	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c26957bc-fbbc-4d51-ba42-385674afb631"}}]
+1543840962667	Marionette	TRACE	0 -> [0,44,"WebDriver:ElementSendKeys",{"id":"c26957bc-fbbc-4d51-ba42-385674afb631","text":"gg@hh.com","value":["g","g","@","h","h",".","c","o","m"]}]
+1543840962683	Marionette	TRACE	0 <- [1,44,null,{"value":null}]
+1543840962697	Marionette	TRACE	0 -> [0,45,"WebDriver:FindElement",{"using":"css selector","value":"*[name='home']"}]
+1543840962698	Marionette	TRACE	0 <- [1,45,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d3187775-454e-4f73-bebe-7260ddebe5ad"}}]
+1543840962713	Marionette	TRACE	0 -> [0,46,"WebDriver:ElementClick",{"id":"d3187775-454e-4f73-bebe-7260ddebe5ad"}]
+1543840962952	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1543840962953	Marionette	TRACE	0 <- [1,46,null,{"value":null}]
+1543840962969	Marionette	TRACE	0 -> [0,47,"WebDriver:FindElement",{"using":"css selector","value":"*[name='home']"}]
+1543840962971	Marionette	TRACE	0 <- [1,47,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d3187775-454e-4f73-bebe-7260ddebe5ad"}}]
+1543840962984	Marionette	TRACE	0 -> [0,48,"WebDriver:ElementClear",{"id":"d3187775-454e-4f73-bebe-7260ddebe5ad"}]
+1543840962986	Marionette	TRACE	0 <- [1,48,null,{"value":null}]
+1543840962999	Marionette	TRACE	0 -> [0,49,"WebDriver:FindElement",{"using":"css selector","value":"*[name='home']"}]
+1543840963001	Marionette	TRACE	0 <- [1,49,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d3187775-454e-4f73-bebe-7260ddebe5ad"}}]
+1543840963015	Marionette	TRACE	0 -> [0,50,"WebDriver:ElementSendKeys",{"id":"d3187775-454e-4f73-bebe-7260ddebe5ad","text":"134455566","value":["1","3","4","4","5","5","5","6","6"]}]
+1543840963021	Marionette	TRACE	0 <- [1,50,null,{"value":null}]
+1543840963032	Marionette	TRACE	0 -> [0,51,"WebDriver:FindElement",{"using":"css selector","value":"*[name='submit']"}]
+1543840963037	Marionette	TRACE	0 <- [1,51,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"15009199-9bc9-44b8-8bc9-278df55b3236"}}]
+1543840963049	Marionette	TRACE	0 -> [0,52,"WebDriver:ElementClick",{"id":"15009199-9bc9-44b8-8bc9-278df55b3236"}]
+1543840963068	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost/addressbook/edit.php
+1543840963120	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost/addressbook/edit.php
+1543840963124	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost/addressbook/edit.php
+1543840963154	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost/addressbook/edit.php
+1543840963183	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost/addressbook/edit.php
+1543840963186	Marionette	TRACE	0 <- [1,52,null,{"value":null}]
+]]></system-err>
+</testsuite>
