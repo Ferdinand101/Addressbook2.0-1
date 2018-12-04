@@ -9,7 +9,8 @@ import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
    //comment
-  protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+  protected static ApplicationManager app =
+           new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
   @BeforeSuite
   public void setUp(){
