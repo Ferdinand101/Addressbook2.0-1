@@ -21,6 +21,13 @@ public class ContactHelper extends HelperBase{
     type(By.name("email"), contact.getEmail());
     type(By.name("home"), contact.getPhoneHome());
   }
+  public void fillContactFormModification(Contact contact) {
+    type(By.name("firstname"), contact.getfName());
+    type(By.name("lastname"), contact.getlName());
+    type(By.name("address"), contact.getAddress());
+    type(By.name("email"), contact.getEmail());
+    type(By.name("home"), contact.getPhoneHome());
+  }
 
   public void initContactCreation() {
     click(By.xpath("//a[@href='edit.php']"));

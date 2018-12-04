@@ -22,7 +22,7 @@ public class ContactCreationTests extends TestBase {
     app.getContactHelper().initContactCreation();
     app.getContactHelper().fillContactForm(new Contact("Moshe", "Coen", "Tel-Aviv", "gg@hh.com", "134455566"));
     app.getContactHelper().confirmContactCreation();
-    
+
 
   }
 }
